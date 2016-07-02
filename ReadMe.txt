@@ -1,11 +1,13 @@
 ReadMe file for Irony project
 http://www.codeplex.com/irony  
 
-Prerequisites
+<img src="http://download-codeplex.sec.s-msft.com/Download?ProjectName=irony&DownloadId=322642" />
+
+#Prerequisites
   OS: Windows 7; 
   Visual Studio 2010, .NET Framework 4.0
   
-Demo instructions
+#Demo instructions
 To run Grammar Explorer
 * Open Irony_All.sln solution file in Visual Studio.
 * Right-click on the project "030.Irony.GrammarExplorer" and select "Set as StartUp project" from context menu.
@@ -30,7 +32,7 @@ To run Grammar Explorer
 * Repeat for other selections in the Grammar combobox.
 * Grammar Explorer restores your last language selection and source sample after you close/restart the form. 
 
-Note about Silverlight:
+##Note about Silverlight:
 IronySilverlight project in the solution is a version of Irony for use in Silverlight environment. 
 This project shares almost all sources files with core Irony project. It has a conditonal symbol SILVERLIGHT defined
 and uses it in a few places to select different code pieces for different environments. 
@@ -38,6 +40,7 @@ The output assembly name is IronySL.dll. By default this project is not compiled
 so it does not break your build if you don't have SL files on your computer. 
 To compile this project you must have Silverlight 4 Tools installed: 
 (http://www.microsoft.com/downloads/details.aspx?familyid=9442b0f2-7465-417a-88f3-5e7b5409e9dd&displaylang=en)
-Credit for Irony-SL adaptation goes to Kirill Osenkov
+
+##Credit for Irony-SL adaptation goes to Kirill Osenkov
  
   
